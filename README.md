@@ -6,5 +6,6 @@ The Project is simple, I need the user to give me some information to create a b
 graph TD
 J[Java\nProject]--> C1[Using\nScanner]
 J --> C2[Creating a\nClass]
-J --> C3[Print\nInfos]
+C2 --> Print
+C1 --> Print
 ```
